@@ -10,6 +10,8 @@ public class CustomerDetailsDto {
 
     private String phNum;
 
+    private String item;
+
     public int getId() {
         return id;
     }
@@ -40,5 +42,13 @@ public class CustomerDetailsDto {
 
     public void setPhNum(String phNum) {
         this.phNum = phNum;
+    }
+
+    public String getItem() {
+        return item;
+    }
+
+    public void setItem(String item) {
+        this.item = item;
     }
 }
