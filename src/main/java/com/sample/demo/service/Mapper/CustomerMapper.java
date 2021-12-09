@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 public class CustomerMapper {
 
     public Customer mapCustomerDtoToEntity(CustomerDetailsDto customerDetailsDto) {
+
         Customer customer = new Customer();
         customer.setId(customerDetailsDto.getId());
         customer.setCusName(customerDetailsDto.getCusName());
